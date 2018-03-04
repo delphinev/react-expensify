@@ -10,6 +10,7 @@ import 'normalize.css/normalize.css'
 import './styles/style.scss'
 import { setTimeout } from 'core-js/library/web/timers';
 import 'react-dates/lib/css/_datepicker.css'
+import './firebase/firebase'
 
 const store = configureStore();
 // store.dispatch(addExpense({description: 'Water bill', amount: 400}));
